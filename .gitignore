@@ -1,0 +1,60 @@
+# =========================================================
+# AdsConnect Frontend - TanStack Start / Bun / Vite
+# =========================================================
+
+# Dependencies
+node_modules/
+
+# Build / SSR output
+dist/
+dist-ssr/
+.output/
+.vinxi/
+.tanstack/
+.nitro/
+.wrangler/
+.dev.vars
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Playwright
+playwright-report/
+playwright/.cache/
+test-results/
+test-artifacts/
+blob-report/
+
+# Coverage / caches
+coverage/
+*.tsbuildinfo
+.eslintcache
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.suo
+*.ntvs*
+*.njsproj
+*.sw?
+
+# Lovable local metadata
+.lovable/
+
+# Misc local files
+*.local
